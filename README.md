@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/order-summary-crad-music-responsive-57HS6eAtPs)
 - Live Site URL: [Site URL](https://order-summary-card-ub.netlify.app/)
 
 ## My process
@@ -40,5 +40,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@UrielBucio](https://www.frontendmentor.io/profile/UrielBucio)
