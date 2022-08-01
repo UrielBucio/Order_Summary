@@ -18,7 +18,9 @@
     padding: 0;
 }
 body {
-    background: var(--paleBlue) url(../src/img/pattern-background-desktop.svg) no-repeat;
+    background-color: var(--paleBlue);
+    background-image: url(../src/img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
     background-size: contain;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
@@ -115,5 +117,43 @@ h1 {
     color: var(--darkBlue);
     cursor: pointer;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (max-width: 768px) {
+    body {
+        background-image: url(../src/img/pattern-background-mobile.svg);
+    }
+    .card_container {
+        height: 570px;
+        margin: 70px auto;
+        width: 328px;
+    }
+    .container_image {
+        height: 162px;
+    }
+    h1 {
+        margin: 24px 0;
+    }
+    .main_paragraph {
+        padding: 0 30px;
+        margin-bottom: 32px;
+    }
+    .description_price {
+        height: 82px;
+        margin: 0 auto 32px;
+        padding: 0;
+        width: 280px;
+    }
+    .description_price a {
+        margin-left: 30px;
+    }
+    .btn_payment {
+        margin-bottom: 18px;
+        width: 280px;
+    }
+}
