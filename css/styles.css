@@ -1,2 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+:root {
+    --paleBlue: hsl(225, 100%, 94%);
+    --brightBlue: hsl(245, 75%, 52%);
+    --veryPaleBlue: hsl(225, 100%, 98%);
+    --desaturatedBlue: hsl(224, 23%, 55%);
+    --darkBlue: hsl(223, 47%, 23%);
+    --white: hsl(0, 0%, 100%);
+}
+/*
+--Mobile: 375px 
+--Desktop: 1440px
+***Note: Delete
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: var(--paleBlue) url(../src/img/pattern-background-desktop.svg) no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+}
+.card_container {
+    background-color: var(--white);
+    border-radius: 20px;
+    height: 700px;
+    margin: 140px auto 50px;
+    overflow: hidden;
+    width: 450px;
+}
+.container_image {
+    background-image: url(../src/img/illustration-hero.svg);
+    background-size: cover;
+    height: 35%;
+}
+h1 {
+    color: var(--darkBlue);
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin: 48px 0 24px;
+    text-align: center;
+}
+.main_paragraph {
+    color: var(--desaturatedBlue);
+    padding: 0 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.description_price {
+    align-items: center;
+    background-color: var(--veryPaleBlue);
+    border-radius: 10px;
+    display: flex;
+    height: 91px;
+    justify-content: space-around;
+    margin: 0 auto 28px;
+    padding: 0 10px;
+    width: 316px;
+}
+.icon_music {
+    height: 50px;
+    width: 50px;
+}
+.price_sub p:nth-child(1) {
+    color: var(--darkBlue);
+    font-size: 1rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.price_sub p:nth-child(2) {
+    color: var(--desaturatedBlue);
+}
+.description_price a {
+    color: var(--brightBlue);
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-left: 60px;
+}
+.description_price a:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.btn_payment {
+    background-color: var(--brightBlue);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 10px 8px 3px var(--paleBlue);
+    color: var(--white);
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    height: 53px;
+    margin: 0 auto 32px;
+    width: 316px;
+}
+.btn_payment:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.cancel {
+    text-align: center;
+}
+.btn_cancel {
+    color: var(--desaturatedBlue);
+    font-size: 0.9rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+.btn_cancel:hover {
+    color: var(--darkBlue);
+    cursor: pointer;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

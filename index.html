@@ -5,33 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./src/img/favicon-32x32.png">
   <title>Frontend Mentor | Order summary card</title>
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <main class="container">
-    <div class="card_container">
-      <div class="card_image"></div>
-      <section class="card_description">
-        <div class="description_text">
-          <h1>Order Summary</h1>
-          <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-          device anywhere you like!</p>
-        </div>
-        <div class="description_price">
-          <div class="price_icon">
-            <img src="./src/img/icon-music.svg" alt="icon-music" class="icon-music">
-          </div>
-          <div class="price_sub">
-            <p>Annual Plan</p>
-            <span>$59.99/year</span>
-          </div>
-          <a href="#">Change</a>
-        </div>
-      </section>
-      <div class="card_btn">
-        <button>Proceed to Payment</button>
-        <button>Cancel Order</button>
-      </div>
+  <main class="card_container">
+    <div class="container_image">
     </div>
+    <section class="container_description">
+      <h1>Order Summary</h1>
+      <p class="main_paragraph">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      device anywhere you like!</p>
+      <div class="description_price">
+        <img src="./src/img/icon-music.svg" alt="icon-music" class="icon_music">
+        <div class="price_sub">
+          <p>Annual Plan</p>
+          <p>$59.99/year</p>
+        </div>
+        <a href="#">Change</a>
+      </div>
+      <button class="btn_payment">Proceed to Payment</button>
+      <div class="cancel">
+        <a class="btn_cancel" href="#">Cancel Order</a>
+      </div>
+    </section>
   </main>
   <footer>
     <div class="attribution">
